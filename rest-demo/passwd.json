@@ -1,0 +1,587 @@
+[
+    {
+        "login": "root",
+        "password": "x",
+        "uid": "0",
+        "gid": "0",
+        "gecos": "root",
+        "home": "/root",
+        "shell": "/bin/bash"
+    },
+    {
+        "login": "bin",
+        "password": "x",
+        "uid": "1",
+        "gid": "1",
+        "gecos": "bin",
+        "home": "/bin",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "daemon",
+        "password": "x",
+        "uid": "2",
+        "gid": "2",
+        "gecos": "daemon",
+        "home": "/sbin",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "adm",
+        "password": "x",
+        "uid": "3",
+        "gid": "4",
+        "gecos": "adm",
+        "home": "/var/adm",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "lp",
+        "password": "x",
+        "uid": "4",
+        "gid": "7",
+        "gecos": "lp",
+        "home": "/var/spool/lpd",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "sync",
+        "password": "x",
+        "uid": "5",
+        "gid": "0",
+        "gecos": "sync",
+        "home": "/sbin",
+        "shell": "/bin/sync"
+    },
+    {
+        "login": "shutdown",
+        "password": "x",
+        "uid": "6",
+        "gid": "0",
+        "gecos": "shutdown",
+        "home": "/sbin",
+        "shell": "/sbin/shutdown"
+    },
+    {
+        "login": "halt",
+        "password": "x",
+        "uid": "7",
+        "gid": "0",
+        "gecos": "halt",
+        "home": "/sbin",
+        "shell": "/sbin/halt"
+    },
+    {
+        "login": "mail",
+        "password": "x",
+        "uid": "8",
+        "gid": "12",
+        "gecos": "mail",
+        "home": "/var/spool/mail",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "operator",
+        "password": "x",
+        "uid": "11",
+        "gid": "0",
+        "gecos": "operator",
+        "home": "/root",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "games",
+        "password": "x",
+        "uid": "12",
+        "gid": "100",
+        "gecos": "games",
+        "home": "/usr/games",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "ftp",
+        "password": "x",
+        "uid": "14",
+        "gid": "50",
+        "gecos": "FTP User",
+        "home": "/var/ftp",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nobody",
+        "password": "x",
+        "uid": "99",
+        "gid": "99",
+        "gecos": "Nobody",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "systemd-coredump",
+        "password": "x",
+        "uid": "999",
+        "gid": "998",
+        "gecos": "systemd Core Dumper",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "systemd-timesync",
+        "password": "x",
+        "uid": "998",
+        "gid": "997",
+        "gecos": "systemd Time Synchronization",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "systemd-network",
+        "password": "x",
+        "uid": "192",
+        "gid": "192",
+        "gecos": "systemd Network Management",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "systemd-resolve",
+        "password": "x",
+        "uid": "193",
+        "gid": "193",
+        "gecos": "systemd Resolver",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "dbus",
+        "password": "x",
+        "uid": "81",
+        "gid": "81",
+        "gecos": "System message bus",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "polkitd",
+        "password": "x",
+        "uid": "997",
+        "gid": "996",
+        "gecos": "User for polkitd",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "qemu",
+        "password": "x",
+        "uid": "107",
+        "gid": "107",
+        "gecos": "qemu user",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "rtkit",
+        "password": "x",
+        "uid": "172",
+        "gid": "172",
+        "gecos": "RealtimeKit",
+        "home": "/proc",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "pulse",
+        "password": "x",
+        "uid": "171",
+        "gid": "171",
+        "gecos": "PulseAudio System Daemon",
+        "home": "/var/run/pulse",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "avahi",
+        "password": "x",
+        "uid": "70",
+        "gid": "70",
+        "gecos": "Avahi mDNS/DNS-SD Stack",
+        "home": "/var/run/avahi-daemon",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "chrony",
+        "password": "x",
+        "uid": "996",
+        "gid": "992",
+        "gecos": "",
+        "home": "/var/lib/chrony",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "usbmuxd",
+        "password": "x",
+        "uid": "113",
+        "gid": "113",
+        "gecos": "usbmuxd user",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "openvpn",
+        "password": "x",
+        "uid": "995",
+        "gid": "991",
+        "gecos": "OpenVPN",
+        "home": "/etc/openvpn",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "radvd",
+        "password": "x",
+        "uid": "75",
+        "gid": "75",
+        "gecos": "radvd user",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "apache",
+        "password": "x",
+        "uid": "48",
+        "gid": "48",
+        "gecos": "Apache",
+        "home": "/usr/share/httpd",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "geoclue",
+        "password": "x",
+        "uid": "994",
+        "gid": "989",
+        "gecos": "User for geoclue",
+        "home": "/var/lib/geoclue",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "rpc",
+        "password": "x",
+        "uid": "32",
+        "gid": "32",
+        "gecos": "Rpcbind Daemon",
+        "home": "/var/lib/rpcbind",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "colord",
+        "password": "x",
+        "uid": "993",
+        "gid": "987",
+        "gecos": "User for colord",
+        "home": "/var/lib/colord",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "abrt",
+        "password": "x",
+        "uid": "173",
+        "gid": "173",
+        "gecos": "",
+        "home": "/etc/abrt",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "saslauth",
+        "password": "x",
+        "uid": "992",
+        "gid": "76",
+        "gecos": "Saslauthd user",
+        "home": "/run/saslauthd",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nm-openvpn",
+        "password": "x",
+        "uid": "991",
+        "gid": "986",
+        "gecos": "Default user for running openvpn spawned by NetworkManager",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "gdm",
+        "password": "x",
+        "uid": "42",
+        "gid": "42",
+        "gecos": "",
+        "home": "/var/lib/gdm",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nm-openconnect",
+        "password": "x",
+        "uid": "990",
+        "gid": "985",
+        "gecos": "NetworkManager user for OpenConnect",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "setroubleshoot",
+        "password": "x",
+        "uid": "989",
+        "gid": "983",
+        "gecos": "",
+        "home": "/var/lib/setroubleshoot",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "rpcuser",
+        "password": "x",
+        "uid": "29",
+        "gid": "29",
+        "gecos": "RPC Service User",
+        "home": "/var/lib/nfs",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "gnome-initial-setup",
+        "password": "x",
+        "uid": "988",
+        "gid": "982",
+        "gecos": "",
+        "home": "/run/gnome-initial-setup/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "sshd",
+        "password": "x",
+        "uid": "74",
+        "gid": "74",
+        "gecos": "Privilege-separated SSH",
+        "home": "/var/empty/sshd",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "tss",
+        "password": "x",
+        "uid": "59",
+        "gid": "59",
+        "gecos": "Account used by the trousers package to sandbox the tcsd daemon",
+        "home": "/dev/null",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "tcpdump",
+        "password": "x",
+        "uid": "72",
+        "gid": "72",
+        "gecos": "",
+        "home": "/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "ravi",
+        "password": "x",
+        "uid": "1000",
+        "gid": "1000",
+        "gecos": "ravi jaya",
+        "home": "/home/ravi",
+        "shell": "/bin/bash"
+    },
+    {
+        "login": "sddm",
+        "password": "x",
+        "uid": "987",
+        "gid": "980",
+        "gecos": "Simple Desktop Display Manager",
+        "home": "/var/lib/sddm",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "oprofile",
+        "password": "x",
+        "uid": "16",
+        "gid": "16",
+        "gecos": "Special user account to be used by OProfile",
+        "home": "/var/lib/oprofile",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "training",
+        "password": "x",
+        "uid": "1001",
+        "gid": "1001",
+        "gecos": "",
+        "home": "/home/training",
+        "shell": "/bin/bash"
+    },
+    {
+        "login": "gluster",
+        "password": "x",
+        "uid": "986",
+        "gid": "977",
+        "gecos": "GlusterFS daemons",
+        "home": "/run/gluster",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "pipewire",
+        "password": "x",
+        "uid": "985",
+        "gid": "976",
+        "gecos": "PipeWire System Daemon",
+        "home": "/var/run/pipewire",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "janaki",
+        "password": "x",
+        "uid": "1002",
+        "gid": "1002",
+        "gecos": "",
+        "home": "/home/janaki",
+        "shell": "/bin/bash"
+    },
+    {
+        "login": "akmods",
+        "password": "x",
+        "uid": "984",
+        "gid": "975",
+        "gecos": "User is used by akmods to build akmod packages",
+        "home": "/var/cache/akmods/",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "mailnull",
+        "password": "x",
+        "uid": "47",
+        "gid": "47",
+        "gecos": "",
+        "home": "/var/spool/mqueue",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "smmsp",
+        "password": "x",
+        "uid": "51",
+        "gid": "51",
+        "gecos": "",
+        "home": "/var/spool/mqueue",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "dnsmasq",
+        "password": "x",
+        "uid": "973",
+        "gid": "973",
+        "gecos": "Dnsmasq DHCP and DNS server",
+        "home": "/var/lib/dnsmasq",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "mysql",
+        "password": "x",
+        "uid": "27",
+        "gid": "27",
+        "gecos": "MySQL Server",
+        "home": "/var/lib/mysql",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "unbound",
+        "password": "x",
+        "uid": "972",
+        "gid": "972",
+        "gecos": "Unbound DNS resolver",
+        "home": "/etc/unbound",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nfsnobody",
+        "password": "x",
+        "uid": "65534",
+        "gid": "65534",
+        "gecos": "Anonymous NFS User",
+        "home": "/var/lib/nfs",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nagios",
+        "password": "x",
+        "uid": "971",
+        "gid": "970",
+        "gecos": "",
+        "home": "/var/spool/nagios",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "hacluster",
+        "password": "x",
+        "uid": "189",
+        "gid": "189",
+        "gecos": "cluster user",
+        "home": "/home/hacluster",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "ntp",
+        "password": "x",
+        "uid": "38",
+        "gid": "38",
+        "gecos": "",
+        "home": "/etc/ntp",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nrpe",
+        "password": "x",
+        "uid": "970",
+        "gid": "969",
+        "gecos": "NRPE user for the NRPE service",
+        "home": "/var/run/nrpe",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "nginx",
+        "password": "x",
+        "uid": "969",
+        "gid": "968",
+        "gecos": "Nginx web server",
+        "home": "/var/lib/nginx",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "uwsgi",
+        "password": "x",
+        "uid": "968",
+        "gid": "967",
+        "gecos": "uWSGI daemon user",
+        "home": "/run/uwsgi",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "epmd",
+        "password": "x",
+        "uid": "967",
+        "gid": "966",
+        "gecos": "Erlang Port Mapper Daemon",
+        "home": "/dev/null",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "puppet",
+        "password": "x",
+        "uid": "52",
+        "gid": "52",
+        "gecos": "Puppet",
+        "home": "/var/lib/puppet",
+        "shell": "/sbin/nologin"
+    },
+    {
+        "login": "jaya",
+        "password": "x",
+        "uid": "1003",
+        "gid": "1003",
+        "gecos": "",
+        "home": "/home/jaya",
+        "shell": "/bin/bash"
+    }
+]
