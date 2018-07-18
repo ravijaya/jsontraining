@@ -12,7 +12,7 @@ def csv2json(csv_file, json_file):
     return dumps(payload, indent=4)
 
 
-json_content = csv2json('/etc/passwd', 'passwd.json')
+json_content = csv2json('passwd', 'passwd.json')
 print(json_content)
 
 
